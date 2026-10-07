@@ -1,7 +1,7 @@
 import express from "express";
 
 //controllers
-
+import createUser from "../controllers/userControllers.js";
 //middleware
 
 const router = express.Router();
