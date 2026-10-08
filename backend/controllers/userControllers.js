@@ -117,4 +117,4 @@ const updateCurrentUserProfile = asyncHandler(async(req, res) => {
     }
 })
 
-export default {createUser, loginUser, logoutCurrentUser, getAllUsers, updateCurrentUserProfile}
+export default {createUser, loginUser, logoutCurrentUser, getAllUsers, getCurrentUserProfile, updateCurrentUserProfile}
